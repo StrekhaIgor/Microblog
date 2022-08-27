@@ -10,3 +10,4 @@ class Config(object):
         'sqlite:///' + os.path.join(basedir, 'app.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     WTF_CSRF_ENABLED = True
+    POSTS_PER_PAGE = 25
