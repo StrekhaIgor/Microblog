@@ -1,6 +1,8 @@
 from xml.dom.pulldom import ErrorHandler
 from flask import render_template
 from app import app, db
+import logging
+from logging.handlers import SMTPHandler
 
 @app.errorhandler(404)
 def not_found_error(error):
