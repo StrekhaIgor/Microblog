@@ -1,4 +1,11 @@
 app.db
-app.db
-app.db
-app.db
+messages.pot
+__pycache__/config.cpython-310.pyc
+__pycache__/microblog.cpython-310.pyc
+app/__pycache__/__init__.cpython-310.pyc
+app/__pycache__/cli.cpython-310.pyc
+app/__pycache__/email.cpython-310.pyc
+app/__pycache__/errors.cpython-310.pyc
+app/__pycache__/forms.cpython-310.pyc
+app/__pycache__/models.cpython-310.pyc
+app/__pycache__/routes.cpython-310.pyc

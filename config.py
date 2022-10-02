@@ -17,3 +17,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['qchess-server@yandex.ru', 'is1989@yandex.ru']
     POSTS_PER_PAGE = 10
+    LANGUAGES = ['ru', 'en']
