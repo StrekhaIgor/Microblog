@@ -18,3 +18,4 @@ class Config(object):
     ADMINS = ['qchess-server@yandex.ru', 'is1989@yandex.ru']
     POSTS_PER_PAGE = 10
     LANGUAGES = ['ru', 'en']
+    IAM_TOKEN=os.environ.get('IAM_TOKEN')
